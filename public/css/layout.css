@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+/* .konten {
+  padding-top: 78px;
+  margin-left: 48px;
+  margin-right: 48px;
+} */
+    
+/* INPO */
+.inpo {display: none;}
+.inpo:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 36px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+} 
+      
+#kotak {
+  width: 700px;
+  height: 300px;
+  background: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  box-shadow: 0 0 20px black; 
+  padding: 30px;
+
+}
+
+.close {
+  color: #9b9898;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-weight:bolder;
+}
+.close:hover {color: #c0392b;}
+
+#kotak h3     {
+  position: absolute; 
+  top: 10px;
+  color: #c0392b;
+  font-family: 'Patua One', cursive;
+  font-weight: bolder;
+}        
+#kotak p      {
+  /* position: absolute; */
+  text-align: center; 
+  font-size: 18px; 
+  margin-bottom: 10px;
+}
+
+.salam_admin      {
+  position: absolute;
+  bottom: 15px;
+  text-align: center; 
+  font-size: 15px; 
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #c0392b;
+  font-weight: bold;
+}
+/* INPO */
+
+/* HEADER */
+header {
+  background: black;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 10vh;
+  transition: background 0.3s ease-in-out;
+}
+    
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+}
+    
+.navbar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(251, 197, 13);
+  font-size: 18px;
+  padding: 0 37px;
+  position: relative;
+  top: 8px;
+  text-transform: capitalize;
+}
+    
+.navbar ul li a:hover {
+  color: rgb(184, 63, 46);
+}
+    
+.logoNav {
+  width: 35px; 
+  top: 0px; 
+  left: 0px; 
+}
+/* HEADER */
